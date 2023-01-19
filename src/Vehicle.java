@@ -9,8 +9,7 @@ public class Vehicle {
 	private int numberOfWheels;
 	private double weight;
 
-	int counter = 0;
-
+//	Allow Getters and setters for properties:
 	public int getMake() {
 		return make;
 	}
@@ -59,32 +58,23 @@ public class Vehicle {
 		this.weight = weight;
 	}
 
-	public int getCounter() {
-		return counter;
-	}
-
-	public void setCounter(int counter) {
-		this.counter = counter;
-	}
-
 //	Methods of Vehicle:
-	private void start() {
+	void start() {
 		System.out.println("Vehicle started");
 	}
 
-	private void stop() {
+	void stop() {
 		System.out.println("Vehicle stopped");
 
 	}
 
-	private void drive() {
+	void drive() {
 		System.out.println("Vehicle started moving:");
-		System.out.println("Vehicle driven " + counter + " miles");
-		counter++;
+		System.out.println("Vehicle driven 75,482 miles");
 
 	}
 
-	private void honk() {
+	void honk() {
 		System.out.println("Honk Honk!");
 
 	}
