@@ -80,7 +80,7 @@ public class Vehicle {
 	private void drive() {
 		System.out.println("Vehicle started moving:");
 		System.out.println("Vehicle driven " + counter + " miles");
-		counter ++;
+		counter++;
 
 	}
 
