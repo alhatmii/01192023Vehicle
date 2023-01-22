@@ -12,8 +12,9 @@ public class VehicleWorks {
 		Veh.honk();
 		Veh.stop();
 		System.out.println("\n");
-		
+
 		ElectricVehicle EV = new ElectricVehicle();
-		EV.drive();
+		Veh.startEngine();
+		EV.drive();  
 	}
 }
