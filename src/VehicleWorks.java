@@ -2,7 +2,7 @@
 public class VehicleWorks {
 
 	public static void main(String[] args) {
-		
+
 //		Polymorphism object Calling: 
 		Vehicle Veh = new Vehicle();
 		Veh.start();
@@ -11,5 +11,9 @@ public class VehicleWorks {
 		System.out.println("CAUTION: ANIMAL AHEAD!!!");
 		Veh.honk();
 		Veh.stop();
+		System.out.println("\n");
+		
+		ElectricVehicle EV = new ElectricVehicle();
+		EV.drive();
 	}
 }

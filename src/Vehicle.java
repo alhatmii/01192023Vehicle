@@ -1,5 +1,5 @@
 
-public class Vehicle {
+public class Vehicle extends Engine {
 
 //	Properties of Vehicle:
 	private int make;
@@ -76,6 +76,12 @@ public class Vehicle {
 
 	void honk() {
 		System.out.println("Honk Honk!");
+
+	}
+
+//	Abstracted Method from Engine Abstracted class:
+	@Override
+	public void startEngine() {
 
 	}
 }
